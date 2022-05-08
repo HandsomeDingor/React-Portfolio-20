@@ -39,7 +39,7 @@ function ContactForm() {
   return (
     <div className='m-5'>
         <div className='m-5'>
-      <h1 classname='m-5' data-testid="h1tag">Contact me</h1>
+      <h1 className='m-5' data-testid="h1tag">Contact me</h1>
       </div>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className='m-5'>

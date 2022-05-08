@@ -4,9 +4,12 @@ function Resume() {
 
   return (
     <section className="" >
-      <div className='d-flex justify-content-center p-4'>
-        <h1>Resume</h1>
-      </div>
+          <a
+            href=""
+            class="link"
+          >
+            Download Resume
+          </a>
     </section>
   )
 }
