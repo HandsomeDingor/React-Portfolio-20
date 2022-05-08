@@ -3,7 +3,7 @@ import './index.css'
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar bg-info justify-content-between p-4 display-6">
+    <nav className="navbar bg-dark justify-content-between p-4 display-6">
       <div className='display-5 text-whit'>
         <a
           href="#home"
