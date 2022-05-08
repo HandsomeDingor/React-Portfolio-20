@@ -1,16 +1,33 @@
 import React from 'react'
 
 function Portfolio() {
+    const projects = [
+        {
+            id: 'id1',
+            title: 'title1',
+        },
+        {
+            id: 'id2',
+            title: 'title3',
+        },
+        {
+            id: 'id3',
+            title: 'title3',
+        }
+    ]
 
-  return (
-    <section className="my-5" >
-      <h1 id="portfolio">Portfolio</h1>
-      <div className="my-2">
-        <p>
-      </p>
-      </div>
-    </section>
-  )
+
+    return (
+        <section >
+            {projects.map((e) => (
+                <card classname="">
+                    <div className={e.project_number}>
+                        <p className="">{e.title}</p>
+                    </div>
+                </card>
+            ))}
+        </section>
+    )
 }
 
 export default Portfolio

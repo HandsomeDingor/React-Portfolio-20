@@ -3,12 +3,11 @@ import React from 'react'
 function Home() {
 
   return (
-    <section className="my-5" >
-      <h1 id="home">Home</h1>
-      <div className="my-2">
-        <p>
-      </p>
-      </div>
+    <section className="" >
+        <div className="d-flex justify-content-center"> <p className='p-5 display-5'>JunJie Wu</p> </div>
+    
+        <div className="d-flex justify-content-center"> <p className='display-6'>Welcome To My Page!</p> </div>
+
     </section>
   )
 }

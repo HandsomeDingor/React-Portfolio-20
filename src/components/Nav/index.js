@@ -1,9 +1,10 @@
 import React from 'react';
+import './index.css'
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <header className="flex-row px-1">
-      <h2>
+    <nav className="navbar bg-info justify-content-between p-4 display-6">
+      <div className='display-5 text-whit'>
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -11,9 +12,9 @@ function Nav({ currentPage, handlePageChange }) {
         >
           JunJie Wu
         </a>
-      </h2>
-      <ul className="flex-row nav nav-tabs">
-        <li className="nav-item mx-2" >
+        </div>
+      <ul className="flex-row nav">
+        <li className="nav-item active mx-2" >
           <a
             href="#about"
             onClick={() => handlePageChange('About')}
@@ -22,7 +23,7 @@ function Nav({ currentPage, handlePageChange }) {
             About
           </a>
         </li>
-        <li className="nav-item mx-2">
+        <li className="nav-item active mx-2">
           <a
             href="#portfolio"
             onClick={() => handlePageChange('Portfolio')}
@@ -31,7 +32,7 @@ function Nav({ currentPage, handlePageChange }) {
             Portfolio
           </a>
         </li>
-        <li className="nav-item mx-2">
+        <li className="nav-item active mx-2">
           <a
             href="#contact"
             onClick={() => handlePageChange('Contact')}
@@ -40,7 +41,7 @@ function Nav({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
-        <li className="nav-item mx-2">
+        <li className="nav-item active mx-2">
           <a
             href="#resume"
             onClick={() => handlePageChange('Resume')}
@@ -50,7 +51,7 @@ function Nav({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-    </header>
+    </nav>
   );
 }
 
