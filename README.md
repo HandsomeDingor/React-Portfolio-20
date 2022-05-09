@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # GITHUB LINK: https://github.com/HandsomeDingor/React-Portfolio-20
-# HeroKu Live App: 
+# Live App: https://handsomedingor.github.io/React-Portfolio-20/
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ Now that you’ve completed multiple projects, your task is to create a portfoli
 
 OR 
 
-1. Go to HeroKu live url : 
+1. Go to live url : https://handsomedingor.github.io/React-Portfolio-20/
 
 
 ## [Usage](#table-of-contents)
