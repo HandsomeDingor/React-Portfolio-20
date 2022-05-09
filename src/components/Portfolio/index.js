@@ -66,8 +66,8 @@ function Portfolio() {
                             <img className="card-img-top" src={e.image} alt={e.id} />
                                 <h5 className="card-header">{e.title}</h5>
                                 <p className='card-text'>{e.text}</p>
-                                <a href={e.github} className='btn btn-primary'>Github</a>
-                                <a href={e.live} className='btn btn-primary'>Live</a>                   
+                                <a href={e.github} className='btn btn-primary' target="_blank" rel="noreferrer">Github</a>
+                                <a href={e.live} className='btn btn-primary' target="_blank" rel="noreferrer">Live</a>                   
                             </div>
                         </div>
                     </div>
