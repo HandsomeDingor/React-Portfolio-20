@@ -8,7 +8,7 @@ function Resume() {
         <div className='col-sm-6 p-5'>
         <h1>RESUME</h1>
           <a className='m-5'
-            href="https://github.com/HandsomeDingor/React-Portfolio-20/raw/main/src/assets/resume/Junjie%20Wu%20-%20Resume_PDF.pdf"
+            href="https://github.com/HandsomeDingor/React-Portfolio-20/blob/main/src/assets/resume/Junjie%20Wu%20-%20Resume.pdf"
           >
            <FaDownload size={70}/> Download Resume
           </a>
