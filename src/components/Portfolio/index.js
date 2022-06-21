@@ -42,13 +42,22 @@ function Portfolio() {
             live: 'https://floating-bayou-84682.herokuapp.com/',
             text: 'To build a CMS-style blog site like a WordPress site, where developers can publish  their blog posts and comment on other developers’ posts as well. ',
             image:'https://raw.githubusercontent.com/HandsomeDingor/React-Portfolio-20/main/src/assets/img/id14.png'
-        },     {
+        },    
+        {
             id: 'id16',
             title: 'Restaurant Rater',
             github: 'https://github.com/HandsomeDingor/restaurant-rater',
             live: 'https://hidden-anchorage-87241.herokuapp.com/',
             text: 'The Restaurant Rater is an application designed for users to publish reviews and  ratings of their favorite (and least favorite) places to eat. In the app, users can search restaurants by  User ID, rating, cuisine, and price point.',
             image:'https://raw.githubusercontent.com/HandsomeDingor/React-Portfolio-20/main/src/assets/img/id16.png'
+        },       
+        {
+            id: 'id24',
+            title: 'Your coffee tracker',
+            github: 'https://github.com/HandsomeDingor/your-coffee-tracker',
+            live: 'https://yakattak-coffee1.herokuapp.com',
+            text: 'AS A coffee lover looking for a coffee tracker app. I WANT to manage  my coffee history. SO THAT I can keep tracking my coffee history',
+            image:'https://raw.githubusercontent.com/HandsomeDingor/React-Portfolio-20/main/src/assets/img/id24.png'
         }
     ]
 
